@@ -1,0 +1,66 @@
+[
+  {
+    "id": "2",
+    "parentID": "0",
+    "name": "Planning",
+    "icon": "menu-icon tf-icons mdi mdi-notebook-outline",
+    "slug": ":rota",
+    "role": "admin",
+    "url": "planlama/dashboards-plan",
+    "target": "_blank"
+  },
+  {
+    "id": "3",
+    "parentID": "0",
+    "name": "Dashboards",
+    "icon": "menu-icon tf-icons mdi mdi-home-outline",
+    "slug": "dashboard",
+    "role": "admin",
+    "badge": [
+      "primary",
+      "5"
+    ],
+    "submenu": [
+      {
+        "id": "4",
+        "parentID": "3",
+        "url": "app/ecommerce/dashboard",
+        "name": "eCommerce",
+        "slug": "app-ecommerce-dashboard",
+        "role": "admin"
+      },
+      {
+        "id": "5",
+        "parentID": "3",
+        "url": "dashboard/crm",
+        "name": "CRM",
+        "slug": "dashboard-crm",
+        "role": "admin"
+      },
+      {
+        "id": "6",
+        "parentID": "3",
+        "url": "/",
+        "name": "Analytics",
+        "slug": "dashboard-analytics",
+        "role": "admin"
+      },
+      {
+        "id": "7",
+        "parentID": "3",
+        "url": "app/logistics/dashboard",
+        "name": "Logistics",
+        "slug": "app-logistics-dashboard",
+        "role": "admin"
+      },
+      {
+        "id": "8",
+        "parentID": "3",
+        "url": "app/academy/dashboard",
+        "name": "Academy",
+        "slug": "app-academy-dashboard",
+        "role": "admin"
+      }
+    ]
+  }
+]
